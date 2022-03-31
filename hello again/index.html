@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+</head>
+<body>
+    <script>
+        let nome = window.prompt("qual o seu nome?");
+    // TODO: add hello code
+    function getMessage(name){
+        return "hello, " + name + "...";
+    }
+    const message = getMessage(nome);
+    document.write(message);
+
+    // TODO: add setTimeout code
+    setTimeout(
+        () => {document.write("...Hello again!")},
+        2000
+    );
+    </script>
+    
+</body>
+</html>
